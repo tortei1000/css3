@@ -1,0 +1,225 @@
+.header-container {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://c.pxhere.com/photos/8a/dd/watch_wallet_glass_pen_phone-98958.jpg!d");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.menu-container{
+  
+  display: flex;
+  height: 9vh;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.logo{
+  display: flex;
+  height: 9vh;
+  color: yellow;
+  align-content: center;
+  align-items: center;
+  font-size: 27px;
+  margin-left: 140px;
+  
+}
+
+.logo-menu {
+  display: flex;
+  
+  position: fixed;
+  width: 100vw;
+  justify-content: space-between;
+  margin-top: 35px;
+  
+  
+}
+.menu-icon{
+  display: none;
+}
+.list-container{
+  display: flex;
+  width: 600px;
+  
+  
+  
+}
+.list-item{
+  
+  list-style: none;
+  font-size: 22px;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+
+}
+.list-item:hover{
+  color: yellow;
+  cursor: pointer;
+}
+ 
+.masthead{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-content: center;
+}
+
+.container1{
+  
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-content: center;
+  padding: 10px;
+  color: white;
+  align-content: center;
+  position: relative;
+  text-align: center;
+  right: 27px;
+  top: 250px;
+  font-size: 45px;
+  align-items: center;
+  
+}
+.container1 p{
+  font-size: 60px;
+}
+.container1 button{
+  width: 200px;
+  height: 80px;
+  align-content: center;
+  align-items: center;
+  background: rgb(254, 209, 54);
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+      
+
+.service-header{
+  font-size: 40px;
+  text-align: center;
+}
+.service-text {
+  text-align: center;
+  
+}
+     
+.three-elements{
+  border: solid;
+}
+.col-md{
+  border: solid;
+}
+      
+.bg-light{
+  border: solid;
+}
+   
+.col-lg-12 {
+  border: solid;
+}
+.text-center{
+  border: solid;
+}
+.section-heading{
+  border: solid;
+}
+
+.fa-shopping-cart{
+  font-size: 30px;
+}
+.laptop{
+
+}
+.lock{
+
+}
+.section-sub-heading{
+
+}
+.col-md-4 {
+
+}
+.col-sm-6 {
+
+}
+.portfolio-item{
+  
+}
+.portfolio-link{
+  
+}
+.portfolio-hover{
+  
+}
+.portfolio-hover-content{
+  
+}
+.img-fluid{
+  
+}
+.portfolio-caption{
+
+}
+.text-muted{
+  
+}
+.about{
+  
+}
+.col-lg-12{
+  
+}
+.timeLine{
+  
+}
+.timeLine-img{
+
+}
+.rounded-circle {
+
+}
+.img-fluid{
+  
+}
+.timeLine-heading{
+  
+}
+.timeLine-body{
+
+}
+               
+
+
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block;
+    margin: 5px;
+    position: relative;
+    top: -40px;
+    left: 160px;
+  }
+  .list-item{
+    display: none;
+  }
+  .container1{
+    font-size: 30px;
+  }
+  .container1 p{
+    font-size: 40px;
+  }
+  .logo{
+    
+    font-size: 17px;
+    margin: 5px;
+    position: relative;
+    top: -40px;
+  }
+}
